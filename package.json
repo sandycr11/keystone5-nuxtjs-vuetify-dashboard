@@ -1,0 +1,51 @@
+{
+  "name": "keystonejs5-nuxtjs-vuetify-dashboard",
+  "description": "",
+  "private": false,
+  "version": "0.0.1",
+  "author": "Sandy Campos Rodriguez <sandycr11@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development DISABLE_LOGGING=true keystone dev",
+    "build": "cross-env NODE_ENV=production keystone build",
+    "start": "cross-env NODE_ENV=production keystone start",
+    "create-tables": "keystone create-tables"
+  },
+  "repository": "https://github.com/sandycr11/keystone5-nuxtjs-vuetify-dashboard",
+  "dependencies": {
+    "@keystonejs/adapter-mongoose": "^8.0.0",
+    "@keystonejs/app-admin-ui": "^5.9.5",
+    "@keystonejs/app-graphql": "^5.1.5",
+    "@keystonejs/app-nuxt": "^5.1.3",
+    "@keystonejs/fields": "^9.0.0",
+    "@keystonejs/keystone": "^8.0.0",
+    "@mdi/font": "^5.1.45",
+    "axios": "^0.19.2",
+    "core-js": "2",
+    "cross-env": "^7.0.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "nuxt": "^2.2.0",
+    "vue-router": "^3.1.6",
+    "vuetify": "^1.3.6",
+    "vuex": "^3.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-html": "^6.0.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "webpack": "^4.43.0"
+  }
+}
